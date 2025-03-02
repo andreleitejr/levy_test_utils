@@ -1,0 +1,33 @@
+name: levy_test_utils
+description: "A new Flutter package project."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  levy_core:
+    path: ../levy_core
+  #    git:
+  #      url: https://github.com/andreleitejr/levy_core.git
+
+  levy_dependencies:
+    path: ../levy_dependencies
+
+  levy_shared_entities:
+    path: ../levy_shared_entities
+  #    git:
+  #      url: https://github.com/andreleitejr/levy_dependencies.git
+
+  flutter_riverpod:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mocktail: ^1.0.4
